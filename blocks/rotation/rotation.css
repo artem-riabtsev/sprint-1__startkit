@@ -1,0 +1,12 @@
+.rotation {
+    animation: rotate-animation 20s linear infinite;
+  }
+
+  @keyframes rotate-animation {
+    0% {
+      transform: rotate(0deg); /* Начинаем с 0 градусов */
+    }
+    100% {
+      transform: rotate(360deg); /* Поворачиваем на 360 градусов */
+    }
+  }
